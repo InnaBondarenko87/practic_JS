@@ -11,9 +11,13 @@
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <form action="submit">
+        <input type="text" placeholder="введення назви" />
+        <input type="text" placeholder="введення тексту" />
+        <button type="submit">Add</button>
+        <ul id="task-list"></ul>
+        <!-- <button type="reset">Delete</button> -->
+      </form>
     </main>
 
     <load src="./partials/footer.html" />
